@@ -1,0 +1,14 @@
+node_modules
+.next
+.next_dev
+.next_build
+.tools
+data
+out
+android-apk/build
+android-apk/debug.keystore
+.env*.local
+*.log
+*.tsbuildinfo
+.DS_Store
+next-env.d.ts

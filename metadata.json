@@ -1,0 +1,6 @@
+{
+  "name": "Metro Assist",
+  "description": "Station coordination prototype for Delhi Metro Pink Line Divyangjan assistance, train tracking and station information broadcasts.",
+  "permissions": [],
+  "capabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

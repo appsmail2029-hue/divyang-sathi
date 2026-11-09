@@ -1,0 +1,33 @@
+{
+  "name": "metro-assist",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Metro Assist - Divyangjan Assistance & Station Coordination System (prototype)",
+  "scripts": {
+    "dev": "next dev -p 3000 -H 0.0.0.0",
+    "build": "next build",
+    "start": "next start -p 3000",
+    "lint": "next lint",
+    "seed:reset": "node scripts/reset-db.mjs"
+  },
+  "dependencies": {
+    "lucide-react": "^0.468.0",
+    "next": "^15.5.29",
+    "react": "19.1.0",
+    "react-dom": "19.1.0",
+    "web-push": "^3.6.7",
+    "xlsx": "^0.18.5"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.2",
+    "@types/react": "^19.0.2",
+    "@types/react-dom": "^19.0.2",
+    "@types/web-push": "^3.6.4",
+    "autoprefixer": "^10.4.20",
+    "eslint": "^8.57.0",
+    "eslint-config-next": "^16.4.5",
+    "postcss": "^8.4.49",
+    "tailwindcss": "^3.4.17",
+    "typescript": "^5.7.2"
+  }
+}
